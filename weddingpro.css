@@ -1,0 +1,72 @@
+.startpage{
+    text-align: center;
+    padding-top: 300px;
+    background-color: gold;
+    height: 100vh;
+}
+.navbg{
+    background-color: gold !important;
+    font-weight: bold;
+}
+.overall{
+    font-family: Georgia;
+}
+.home{
+    background-image: url("https://res.cloudinary.com/sandy2818/image/upload/v1664991990/WhatsApp_Image_2022-10-05_at_11.15.17_PM_sd2nsm.jpg");
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+}
+.heading{
+    font-family: Brush Script MT;
+    font-size: 50px !important;
+    color: brown;
+}
+.para{
+    font-size: 30px;
+    margin-top: 70px;
+    font-family: Bahnschrift SemiBold;
+}
+.names{
+    font-family: Brush Script MT;
+    font-size: 55px;
+}
+.ceremony{
+    font-family:  Bahnschrift SemiBold;
+    color: red !important;
+}
+.error{
+    color:red;
+}
+.weight{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Bahnschrift SemiBold;
+}
+.small{
+    text-align: right !important;
+}
+.venue{
+    background-color: #f5eeda;
+    text-align: center;
+    height: 100vh;
+}
+.vertical {
+    border-left: 150px solid gold;
+    border-right: 150px solid gold;
+    height: 500px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    border-top: 6px solid gold;
+}
+.target{
+    padding-right: 100px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.image{
+    height: 25vh;
+}
+.or{
+    color: black !important;
+}
