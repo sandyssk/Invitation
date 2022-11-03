@@ -14,7 +14,7 @@
 }
 .home{
     background-image: url("https://res.cloudinary.com/sandy2818/image/upload/v1667491550/WhatsApp_Image_2022-11-03_at_9.35.29_PM_lmzioe.jpg");
-    height: 100vh;
+    padding : 20px;
 /*     filter: blur(8px);
  */    text-align: center;
     /* width: 100vw; */
