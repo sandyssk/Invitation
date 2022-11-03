@@ -11,52 +11,67 @@
     </head>
     <body>
       <div id="sectionmodel" class="startpage">
-        <h1>Please Enter Your Name</h1>
-        <input id="name" type="text"/>
-        <button onclick="display('sectionhome')"><span onclick="startbutton()" id="button">Click Here</span></button>
-        <p id="error" class="error"></p>
-      </div>
-
-      <div id="sectionhome">
-        <div class="overall">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbg">
-            <a class="navbar-brand" href="#">Engagement Invitation</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav m-auto">
-                <a class="nav-link active" href="#" onclick="display('sectionHome')">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#venue" >Venue</a>
-                <a class="nav-link" href="#contactinfo">Contact Info</a>
-              </div>  
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Please Enter Your Name</h1>
+                    <input id="name" type="text"/>
+                    <button onclick="display('sectionhome')"><span id="button">Click Here</span></button>
+                    <p id="error" class="error"></p>
+                </div>
             </div>
-        </nav>
         </div>
-            <div class="home">
-                <h1 class="heading">Engagement  </h1>
-                <p  class="para pt-5">Dear <span id="invitenames" class="heading"></span> you are cordially invited along with your <br>family to celebrate the beginning of our new life!</p>
-                <h1 class="names pt-4">Satvika (Shalini)<br> & <br>Sujeeth (Arun)</h1>
-            </div>
-    <div id="venue">
-      <div class="venue pt-5 vertical">
-      <h1 class="heading">Venue</h1>
-      <p class="mt-0 weight pt-3">20th November (Sunday) 6pm, <br>Marredpally community hall,<br/> Near Basant Sahney Hospital, Nehru Nagar Colony,<br/> West Marredpally, Secunderabad, Telangana 500026</p>
-      <div class="d-flex flex-row justify-content-center pt-3">
-        <a href = "https://goo.gl/maps/J5FCY79BAaki81j28" target="_blank" class="target"> Please click here for Location </a>
-        <p class="target heading or">(Or)</p>
-        <img src="https://res.cloudinary.com/sandy2818/image/upload/v1665767848/qrcode_36139316__assmhu.png" class="image pb-5"/>
-      </div>
-    </div>
-    </div>
-
-    <div id="contactinfo">
-      <div class="venue pt-5 vertical d-flex flex-column justify-content-center">
-      <h1>Contact Info  :</h1>
-      <p class="weight pt-3">Sanjay Kumar :  9966512166 <br>Naresh Kumar :  7793957788 <br> Sandeep Kumar :  9640282005</p>
-      </div>
-    </div>
-  </div>
+     </div>
+         <div id="sectionhome">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-12">
+                        <div class="overall">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light navbg">
+                            <a class="navbar-brand" href="#">Engagement Invitation</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                              <div class="navbar-nav m-auto">
+                                <a class="nav-link active" href="#" onclick="display('sectionHome')">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#venue" >Venue</a>
+                                <a class="nav-link" href="#contactinfo">Contact Info</a>
+                              </div>  
+                            </div>
+                        </nav>
+                        </div>
+                            <div class="home pt-5">
+                                <h1 class="heading">Engagement  </h1>
+                                <p  class="para pt-5">Dear <span id="invitenames" class="heading"></span> you are cordially invited along with your <br>family to celebrate the beginning of our new life!</p>
+                                <h1 class="names pt-4">Satvika (Shalini)<br> & <br>Sujeeth (Arun)</h1>
+                            </div>
+                    <div id="venue">
+                      <div class="venue pt-5 vertical">
+                      <h1 class="heading">Venue</h1>
+                      <p class="mt-0 weight pt-3">20th November (Sunday) 6pm, <br>Marredpally community hall,<br/> Near Basant Sahney Hospital, Nehru Nagar Colony,<br/> West Marredpally, Secunderabad, Telangana 500026</p>
+                      <div class="d-flex flex-row justify-content-center pt-3">
+                          <div class="col-12 d-flex flex-column justify-content-center">
+                            <div class="link">
+                                <a href = "https://goo.gl/maps/J5FCY79BAaki81j28" target="_blank" class="target"> Please click here for Location </a>
+                            </div>
+                        <p class="target heading or">(Or)</p>
+                        <img src="https://res.cloudinary.com/sandy2818/image/upload/v1665767848/qrcode_36139316__assmhu.png" class="image"/>
+                          </div>
+                      </div>
+                    </div>
+                    </div>
+                
+                    <div id="contactinfo">
+                      <div class="venue pt-5 vertical d-flex flex-column justify-content-center">
+                      <h1>Contact Info  :</h1>
+                      <p class="weight pt-3">Sanjay Kumar :  9966512166 <br>Naresh Kumar :  7793957788 <br> Sandeep Kumar :  9640282005</p>
+                      </div>
+                    </div>
+                 </div>
+              </div>
+         </div>
+     </div>
 
 
         <script src="weddingpro.js"></script>
