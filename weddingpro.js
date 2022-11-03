@@ -1,4 +1,4 @@
-let name = document.getElementById("name")
+let name = document.getElementById("visitors")
 let error = document.getElementById("error")
 let invite_name = document.getElementById("invitenames")
 let section = document.getElementById("sectionhome")
